@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   ENTRADA
+   ========================= */
+
+.entrada {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.entrada img {
+    width: 280px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.entrada h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.entrada p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.entrada button {
+    width: 280px;
+    padding: 16px;
+    margin: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* =========================
+   LOGIN
+   ========================= */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-card {
+    width: 380px;
+}
+
+.login-logo {
+    width: 180px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.login-card h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.login-subtitulo {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.campo {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.esqueci-senha {
+    display: block;
+    margin: -5px 0 20px;
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cadastro {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+
+/* =========================
+   PERFIL
+   ========================= */
+
+.perfil-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.perfil-card {
+    width: 500px;
+    text-align: center;
+}
+
+.perfil-card h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.perfil-foto {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil-foto span {
+    font-size: 45px;
+}
+
+.perfil-card h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.perfil-card > p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.perfil-dados {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.perfil-campo {
+    padding: 15px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.perfil-campo strong {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.perfil-campo span {
+    font-size: 16px;
+}
+
+
+/* =========================
+   EDIÇÃO DO PERFIL
+   ========================= */
+
+.perfil-edicao {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.perfil-edicao label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+.perfil-edicao input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.perfil-card button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-salvar-perfil {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* =========================
+   PLANOS
+   ========================= */
+
+.planos-container {
+    min-height: 100vh;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.planos-card {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.planos-card h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.planos-subtitulo {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.planos-opcoes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.plano {
+    width: 320px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.plano h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plano-preco {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plano p {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.btn-plano {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.gratuito {
+    cursor: default;
+}
+
+.plano-premium {
+    border-width: 2px;
+}
